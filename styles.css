@@ -24,6 +24,8 @@ body {
     line-height:1;
 }
 
+
+
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
     display:block;
@@ -82,7 +84,7 @@ table {
 
 /* change border colour to suit your needs */
 hr {
-    display:block;
+    display: block;
     height:1px;
     border:0;  
     border-top:1px solid #cccccc;
@@ -101,9 +103,13 @@ input, select {
     padding: 0;
 }
 
-body {
-    /* background-color: gray; */
+/* html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #111; 
 }
+*/
 
 header {
     width: 100%;
@@ -141,8 +147,7 @@ header img{
 }
 
 .about-us p{
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 @media (max-width: 768px) {
@@ -159,7 +164,15 @@ header img{
 
 .colour-block{
     background-color: #111;
-    height: 20vh;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.colour-block a{
+    color: rgb(79, 71, 197);
+    text-decoration: dashed;
+    display: inline;
+    line-height: 12.5rem;
 }
 
 
@@ -208,9 +221,7 @@ header img{
     margin-top: 10px;
     margin-left: 0%;
     padding: 1.7rem;
-    gap: 2rem;
-   
-    
+    gap: 2rem;   
 }
 
 .services h1{
@@ -218,7 +229,6 @@ header img{
     font-family: monospace;
     font-size: 16.5px;
     font-weight: bolder;
-   
 }
 
 .services p{
@@ -226,8 +236,7 @@ header img{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
     font-size: 18px; 
     font-weight: lighter;
-    padding: 0.3rem;
-    
+    padding: 0.3rem;   
 }
 
 .photography{
@@ -288,6 +297,11 @@ header img{
     background-color:  rgb(87, 86, 86);
     height: 340px;
     position: relative;
+    text-align: center;
+}
+
+.beige-strip h1{
+    line-height: 8rem;
 }
 
 .beige-strip::after {
